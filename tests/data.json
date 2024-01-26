@@ -1,0 +1,136 @@
+{
+    "Siri": {
+        "ServiceDelivery": {
+            "ProducerRef": "IVTR_HET",
+            "ResponseMessageIdentifier": "IVTR_HET:ResponseMessage:7fe4ed37-5878-4f99-aaf5-03a0f5d85604:LOC:",
+            "ResponseTimestamp": "2024-01-25T14:37:51.742Z",
+            "StopMonitoringDelivery": [
+                {
+                    "MonitoredStopVisit": [
+                        {
+                            "ItemIdentifier": "COTMA:Item::COTMA_268478046:LOC",
+                            "MonitoredVehicleJourney": {
+                                "DestinationName": [
+                                    {
+                                        "value": "Gare de Sucy-Bon"
+                                    }
+                                ],
+                                "DestinationRef": {
+                                    "value": "STIF:StopPoint:Q:483577:"
+                                },
+                                "DirectionName": [
+                                    {
+                                        "value": "R"
+                                    }
+                                ],
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": {
+                                        "value": "COTMA:DataFrame::3-3:LOC"
+                                    },
+                                    "DatedVehicleJourneyRef": "COTMA:VehicleJourney::268438147:LOC"
+                                },
+                                "JourneyNote": [],
+                                "LineRef": {
+                                    "value": "STIF:Line::C00553:"
+                                },
+                                "MonitoredCall": {
+                                    "AimedArrivalTime": "2024-01-25T13:51:00.000Z",
+                                    "AimedDepartureTime": "2024-01-25T13:51:00.000Z",
+                                    "ArrivalStatus": "delayed",
+                                    "DepartureStatus": "delayed",
+                                    "DestinationDisplay": [
+                                        {
+                                            "value": "Gare de Sucy-Bonneuil"
+                                        }
+                                    ],
+                                    "ExpectedArrivalTime": "2024-01-25T13:52:07.000Z",
+                                    "ExpectedDepartureTime": "2024-01-25T13:52:07.000Z",
+                                    "Order": 11,
+                                    "StopPointName": [
+                                        {
+                                            "value": "Les Bordes"
+                                        }
+                                    ],
+                                    "VehicleAtStop": false
+                                },
+                                "OperatorRef": {
+                                    "value": "COTMA:Operator::COTMA:"
+                                },
+                                "TrainNumbers": {
+                                    "TrainNumberRef": []
+                                },
+                                "VehicleJourneyName": []
+                            },
+                            "MonitoringRef": {
+                                "value": "STIF:StopPoint:Q:419093:"
+                            },
+                            "RecordedAtTime": "2024-01-25T13:29:48.000Z"
+                        },
+                        {
+                            "ItemIdentifier": "COTMA:Item::COTMA_268476959:LOC",
+                            "MonitoredVehicleJourney": {
+                                "DestinationName": [
+                                    {
+                                        "value": "Gare de Sucy-Bon"
+                                    }
+                                ],
+                                "DestinationRef": {
+                                    "value": "STIF:StopPoint:Q:483577:"
+                                },
+                                "DirectionName": [
+                                    {
+                                        "value": "R"
+                                    }
+                                ],
+                                "FramedVehicleJourneyRef": {
+                                    "DataFrameRef": {
+                                        "value": "COTMA:DataFrame::3-3:LOC"
+                                    },
+                                    "DatedVehicleJourneyRef": "COTMA:VehicleJourney::268438079:LOC"
+                                },
+                                "JourneyNote": [],
+                                "LineRef": {
+                                    "value": "STIF:Line::C00553:"
+                                },
+                                "MonitoredCall": {
+                                    "AimedArrivalTime": "2024-01-25T14:21:00.000Z",
+                                    "AimedDepartureTime": "2024-01-25T14:21:00.000Z",
+                                    "ArrivalStatus": "delayed",
+                                    "DepartureStatus": "delayed",
+                                    "DestinationDisplay": [
+                                        {
+                                            "value": "Gare de Sucy-Bonneuil"
+                                        }
+                                    ],
+                                    "ExpectedArrivalTime": "2024-01-25T14:22:20.000Z",
+                                    "ExpectedDepartureTime": "2024-01-25T14:22:20.000Z",
+                                    "Order": 11,
+                                    "StopPointName": [
+                                        {
+                                            "value": "Les Bordes"
+                                        }
+                                    ],
+                                    "VehicleAtStop": false
+                                },
+                                "OperatorRef": {
+                                    "value": "COTMA:Operator::COTMA:"
+                                },
+                                "TrainNumbers": {
+                                    "TrainNumberRef": []
+                                },
+                                "VehicleJourneyName": []
+                            },
+                            "MonitoringRef": {
+                                "value": "STIF:StopPoint:Q:419093:"
+                            },
+                            "RecordedAtTime": "2024-01-25T13:23:38.000Z"
+                        }
+                    ],
+                    "ResponseTimestamp": "2024-01-25T14:37:51.757Z",
+                    "Status": "true",
+                    "Version": "2.0"
+                }
+            ]
+        }
+    }
+}
