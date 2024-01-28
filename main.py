@@ -1,2 +1,5 @@
+from frame import Window
+
 if __name__ == '__main__':
-    pass
+    frame = Window()
+    frame.mainloop()

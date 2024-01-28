@@ -8,18 +8,15 @@ import time
 import json
 
 class Requester():
-    def __init__(self, file, stop_point_id, line_id):
+    def __init__(self, file: str):
         self.file = file
-        self.stop_point_id = stop_point_id
-        self.line_id = line_id
 
-    def request_next_passage(self):
+    def request_next_passage(self, stop_point_id: str, line_id: str):
         headers = {'apiKey': 'API-KEY'}
-        response = get(url=f"https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring?MonitoringRef=STIF%3AStopPoint%3AQ%3A{self.stop_point_id}%3A&LineRef=STIF%3ALine%3A%3A{self.line_id}%3A",
+        response = get(url=f"https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring?MonitoringRef=STIF%3AStopPoint%3AQ%3A{stop_point_id}%3A&LineRef=STIF%3ALine%3A%3A{line_id}%3A",
                        headers=headers)
         
         self._get_next_passage(response.json())
-        print(response.json())
         
     def _get_next_passage(self, datas):
         with open(self.file, "r+") as file:
@@ -50,4 +47,4 @@ class Timer():
     def get_difference(self):
         self.delta = self.bus_time - self.current_time
         self.difference = floor(self.delta.seconds/60)
-        print(self.difference)
+        return self.difference
